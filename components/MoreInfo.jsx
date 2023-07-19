@@ -6,7 +6,7 @@ import { ExpandMoreOutlined } from '@mui/icons-material';
 const FAQ = () => {
     return (
         <div className="bg-white rounded-3xl shadow-md p-6">
-            <h2 className="text-2xl font-bold mb-6 text-center text-blue-600">Common Questions</h2>
+            <h2 className="text-2xl font-bold mb-6 text-center text-green-950">Common Questions</h2>
             <div className="flex flex-col items-center">
                 {faqData.map((item) => (
                     <Accordion key={item.id} elevation={0} square className="w-full max-w-3xl border border-gray-200 rounded mb-4">

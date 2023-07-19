@@ -1,12 +1,12 @@
-import Form from '@components/Form';
 import { DesktopWindowsOutlined, PhonelinkOutlined, WorkspacePremiumOutlined } from '@mui/icons-material';
+import Form from '@components/Form';
 
 const Booking = () => {
     return (
         <div className="flex justify-center">
-            <div className="flex items-center w-full max-w-4xl">
+            <div className="flex flex-col-reverse md:flex-row items-center w-full max-w-4xl">
                 {/* Left Section */}
-                <div className="flex flex-col w-1/2 pr-10">
+                <div className="w-full md:w-1/2 pr-10">
                     <div className="mt-10 flex items-center">
                         <DesktopWindowsOutlined sx={{ fontSize: '50px', color: 'lightblue' }} />
                         <div className="ml-4">
@@ -31,7 +31,7 @@ const Booking = () => {
                 </div>
 
                 {/* Right Section */}
-                <div className="w-1/2">
+                <div className="w-full md:w-1/2">
                     <Form />
                 </div>
             </div>
