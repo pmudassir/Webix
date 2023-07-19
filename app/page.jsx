@@ -1,5 +1,6 @@
 import Booking from "@components/Booking"
 import Home from "@components/Home"
+import MoreInfo from "@components/MoreInfo"
 import Testimonial from "@components/Testimonial"
 
 const Page = () => {
@@ -8,6 +9,7 @@ const Page = () => {
             <Home />
             <Booking />
             <Testimonial />
+            <MoreInfo />
         </>
     )
 }

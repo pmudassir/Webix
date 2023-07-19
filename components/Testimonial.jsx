@@ -3,7 +3,7 @@ import { testimonials } from "@data";
 
 const Testimonial = () => {
     return (
-        <div className="bg-white rounded-lg shadow-md p-6 mt-20">
+        <div className="bg-gray-100 rounded-lg shadow-md p-6 mt-20">
             <h2 className="text-2xl font-bold text-center text-blue-600 mb-3">Testimonials</h2>
             <p className="text-gray-600 mb-20 text-center font-semibold">
                 We have worked with thousands of amazing people who love our services. <br /> Here's what they have to say about us:
