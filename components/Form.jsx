@@ -11,7 +11,7 @@ const Form = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-console.log("done");
+
     // Clear form fields
     setFirstName('');
     setLastName('');
@@ -27,8 +27,6 @@ console.log("done");
     }, 4000);
   };
 
-  
-  // const isSubmitted = true
   return (
     <div className="bg-green-950 py-8 px-4 md:px-10 rounded-lg -mt-20 md:ml-20 w-full md:w-auto">
       <h2 className="text-3xl font-bold mb-6 text-white font-work text-center">Schedule an Appointment</h2>
