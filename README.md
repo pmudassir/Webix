@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Webix - Website Creation Service
 
-## Getting Started
+## Description
 
-First, run the development server:
+Webix is a website creation service that helps businesses build their online presence with stunning templates, responsive designs, and custom domains. This project is a landing page for Webix, showcasing its services and features.
+
+
+## Project Goal
+
+The goal of this project is to create a landing page named Webix that allows businesses to book an appointment for website creation services. The landing page should have an attractive and modern design, be fully responsive, and include sections for testimonials and frequently asked questions (FAQs).
+
+## Demo
+
+You can view a live demo of the project [here](#https://webix-seven.vercel.app/).
+
+## Technologies Used
+
+- React.js
+- Next.js
+- Tailwind CSS
+- Other dependencies: classnames, react-icons (for MUI icons)
+
+## Installation
+
+1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+git clone https://github.com/pmudassir/Webix.git
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Install the dependencies:
+npm install
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+ ## Start the development server:
+npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Open your browser and navigate to http://localhost:3000 to view the website.
 
-## Learn More
+## Demo Video:
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+https://github.com/pmudassir/Webix/assets/96933276/a2b6be4d-baea-4b9a-8503-e7d9f883bf28
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
